@@ -1,8 +1,9 @@
 import unittest
+import sys
+import os
+sys.path.append(os.path.abspath("."))
 
 from src.calculatrice import division, puissance, moyenne
-
-
 class TestCalculatrice(unittest.TestCase):
 
     def test_division_entiers(self):
